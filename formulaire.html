@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulaire</title>
+  </head>
+  <body>
+    <form>
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" placeholder="Saisissez votre nom" /> <br />
+      <label for="prenom">Prénom</label>
+      <input type="text" id="prenom" placeholder="Saisissez votre Prénom" />
+      <br />
+      <label for="email">Email</label>
+      <input type="text" id="email" placeholder="Saisissez votre Email" />
+      <br />
+      <label for="Profile">Votre profile</label>
+      <textarea
+        id="Profile"
+        cols="30"
+        rows="10"
+        placeholder="Décrivez votre profile"
+      ></textarea>
+      <h4>véhicules</h4>
+      <label for="Moto">Moto</label>
+      <input type="checkbox" id="moto" />
+      <label for="voiture">voiture</label>
+      <input type="checkbox" id="voiture" />
+      <label for="velo">velo</label>
+      <input type="checkbox" id="velo" />
+      <h4>sexe</h4>
+      <label for="masculin">masculin</label>
+      <input type="radio" id="masculin" name="sexe" />
+      <label for="feminin">feminin</label>
+      <input type="radio" id="feminin" name="sexe" />
+      <h4>Dernier diplome</h4>
+      <select>
+        <option value="">Doctorat</option>
+        <option value="">Master</option>
+        <option value="" selected>Ingénieur</option>
+        <option value="">Licence</option>
+        <option value="">BTs</option>
+        <option value="">Bac</option>
+      </select>
+      <div>
+        <input type="submit" value="Envoyer" />
+      </div>
+    </form>
+  </body>
+</html>
